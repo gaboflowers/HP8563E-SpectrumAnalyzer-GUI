@@ -2,8 +2,7 @@ import visa
 import re
 import numpy as np
 
-string_delimiters = re.compile("( ! | \$ | \% | & | ' | / |\
-					: | = | \@ | \\ | \| | < | > | { | } )") 
+string_delimiters = re.compile("( ! | \$ | \% | & | ' | / | : | = | \@ | \\ | \| | < | > | { | } )") 
 
 class HP8563E:
 	
